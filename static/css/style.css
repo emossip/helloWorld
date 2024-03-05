@@ -1,0 +1,29 @@
+/* style all paragraphs*/
+p {  display: inline-block;
+    width: 90%;
+}
+/* styling all second headers*/
+h2 {
+    color: #333;
+    float: left;
+}
+/* adding a border to the tables*/
+table {
+    border: 1px solid #333;
+}
+/* styling future_plans paragraph*/
+#future_plans {
+    color: black;
+    float: left;
+}
+/*highlighting the UMD website link*/
+.highlight {
+    background-color: yellow;
+    display: inline-block;
+}
+/* formatting logo */
+img.logo {
+    width: 267px;
+    height: 72px;
+
+}
