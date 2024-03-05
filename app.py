@@ -11,5 +11,9 @@ def hello_world():  # put application's code here
 def hello():
     return render_template('hello.html')
 
+@app.route('/about-css')
+def about_css():
+    return render_template('about-css.html')
+
 if __name__ == '__main__':
     app.run()
